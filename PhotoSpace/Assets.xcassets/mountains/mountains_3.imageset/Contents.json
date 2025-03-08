@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "gassddr_a_man_walking_in_the_mountain_not_motivated_4k_--v_6._f6a09ea7-e13d-417d-863a-72c755f6b081_2.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "gassddr_landscape_--v_6.1_8ed3094a-364f-4f96-9160-480885c29564_0.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

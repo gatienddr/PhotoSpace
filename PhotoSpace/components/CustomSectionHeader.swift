@@ -13,8 +13,7 @@ struct CustomSectionHeader: View {
     var body: some View {
         HStack {
             Text(title)
-                .customFont(.extrabold, 32)
-                .italic()
+                .customFont(.bold, 25)
 
             Image(systemName: "arrow.right")
             Spacer()

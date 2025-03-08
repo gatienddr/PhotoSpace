@@ -13,7 +13,6 @@ struct TabBarView: View {
 
     var body: some View {
         TabView(selection: $tabSelected) {
-
             Tab(value: 1) {
                 CreateView()
             } label: {
