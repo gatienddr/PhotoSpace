@@ -9,30 +9,63 @@ import SwiftUI
 
 struct TabBarView: View {
 
-    @State var tabSelected = 0
+    @State var tabSelected = 1
 
     var body: some View {
         TabView(selection: $tabSelected) {
-            Tab("Create", systemImage: "square.badge.plus", value: 2) {
+
+            Tab(value: 1) {
                 CreateView()
+            } label: {
+                VStack {
+                    Image(systemName: tabSelected == 1 ? "square.badge.plus.fill" : "square.badge.plus")
+                        .environment(\.symbolVariants, .none)
+                    Text("Create")
+                }
             }
 
-            Tab("AI Tools", systemImage: "moon.stars", value: 2) {
+            Tab(value: 2) {
                 Text("AI Tools")
+            } label: {
+                VStack {
+                    Image(systemName: tabSelected == 2 ? "moon.stars.fill" : "moon.stars")
+                        .environment(\.symbolVariants, .none)
+                    Text("AI Tools")
+                }
             }
 
-            Tab("Batch", systemImage: "square.stack.3d.up", value: 3) {
+            Tab(value: 3) {
                 Text("Batch")
+            } label: {
+                VStack {
+                    Image(systemName: tabSelected == 3 ? "square.stack.3d.up.fill" : "square.stack.3d.up")
+                        .environment(\.symbolVariants, .none)
+                    Text("Batch")
+                }
+
             }
 
-            Tab("Teams", systemImage: "person.2", value: 4) {
+            Tab(value: 4) {
                 Text("Teams")
+            } label: {
+                VStack {
+                    Image(systemName: tabSelected == 4 ? "person.2.fill" : "person.2")
+                        .environment(\.symbolVariants, .none)
+                    Text("Teams")
+                }
             }
 
-            Tab("Your Content", systemImage: "rectangle.stack", value: 5) {
-               Text("Your Content")
+            Tab(value: 5) {
+                Text("Your Content")
+            } label: {
+                VStack {
+                    Image(systemName: tabSelected == 5 ? "rectangle.stack.fill" : "rectangle.stack")
+                        .environment(\.symbolVariants, .none)
+                    Text("Your Content")
+                }
             }
         }
+        .sensoryFeedback(.impact, trigger: tabSelected)
     }
 }
 

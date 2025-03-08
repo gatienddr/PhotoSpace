@@ -9,19 +9,85 @@ import SwiftUI
 
 struct CreateView: View {
     var body: some View {
-        ScrollView {
+        NavigationStack {
+            ScrollView {
 
-            CustomSectionHeader(title: "Your Templates")
+                CustomSectionHeader(title: "Your Templates")
 
-            ScrollView(.horizontal) {
-                HStack {
-                    RoundedSquareImage(imageName: "podcast_cover_1")
+                ScrollView(.horizontal) {
+                    HStack {
+                        RoundedSquareImage(imageName: "podcast_cover_1")
 
-                    RoundedSquareImage(imageName: "podcast_cover_2")
+                        RoundedSquareImage(imageName: "podcast_cover_2")
+                    }
                 }
+
+                ScrollView(.horizontal) {
+                    HStack {
+                        RoundedSquareImage(imageName: "podcast_cover_1")
+
+                        RoundedSquareImage(imageName: "podcast_cover_2")
+                    }
+                }
+
+                ScrollView(.horizontal) {
+                    HStack {
+                        RoundedSquareImage(imageName: "podcast_cover_1")
+
+                        RoundedSquareImage(imageName: "podcast_cover_2")
+                    }
+                }
+
+                ScrollView(.horizontal) {
+                    HStack {
+                        RoundedSquareImage(imageName: "podcast_cover_1")
+
+                        RoundedSquareImage(imageName: "podcast_cover_2")
+                    }
+                }
+
+                ScrollView(.horizontal) {
+                    HStack {
+                        RoundedSquareImage(imageName: "podcast_cover_1")
+
+                        RoundedSquareImage(imageName: "podcast_cover_2")
+                    }
+                }
+
+
+                ScrollView(.horizontal) {
+                    HStack {
+                        RoundedSquareImage(imageName: "podcast_cover_1")
+
+                        RoundedSquareImage(imageName: "podcast_cover_2")
+                    }
+                }
+
+
+                ScrollView(.horizontal) {
+                    HStack {
+                        RoundedSquareImage(imageName: "podcast_cover_1")
+
+                        RoundedSquareImage(imageName: "podcast_cover_2")
+                    }
+                }
+
+
+                ScrollView(.horizontal) {
+                    HStack {
+                        RoundedSquareImage(imageName: "podcast_cover_1")
+
+                        RoundedSquareImage(imageName: "podcast_cover_2")
+                    }
+                }
+
             }
+            .padding([.horizontal], ViewService.defaultPadding)
+
+                .navigationTitle(Text("Create"))
+
         }
-        .padding([.horizontal], ViewService.defaultPadding)
+
     }
 }
 
