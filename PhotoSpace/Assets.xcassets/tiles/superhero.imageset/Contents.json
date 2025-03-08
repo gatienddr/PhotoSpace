@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "gassddr_a_superhero_png_format_no_background_--v_6.1_a714c1b8-4c31-46a5-9881-5a3cb5c30d35_2.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

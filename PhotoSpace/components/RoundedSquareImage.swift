@@ -12,9 +12,12 @@ struct RoundedSquareImage: View {
     var imageName: String
 
     var body: some View {
+        Button {} label: {
         Image(imageName)
             .resizable()
             .frame(maxWidth: 100, maxHeight: 100)
             .clipShape(RoundedRectangle(cornerRadius: 16))
+        }
+        .buttonStyle(UnScaleButtonStyle())
     }
 }

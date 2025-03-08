@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "gassddr_france_--v_6.1_1018606b-f266-42b5-98ff-4ecd1138565b_2.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
